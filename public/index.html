@@ -40,6 +40,20 @@
     </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
+      <section class="new-tweet">
+        <h3 class="tweet-error" id="tweet-error"></h3>
+        <form action="/tweets" method="POST" class="tweet-form" id="tweet-form">
+          <textarea name="text" class="tweet-input" id="tweet-input" placeholder="What are you humming about..."
+            autofocus="on"></textarea>
+          <hr>
+          <output name="counter" class="tweet-counter" id="tweet-counter" for="tweet-text">140</output>
+          <button class="tweet-submit" type="submit">Tweet</button>
+        </form>
+      </section>
+  
+      <section id="tweets-container"></section>
+    </main>
+  
   </body>
 </html>
