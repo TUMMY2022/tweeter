@@ -1,25 +1,24 @@
-.navbar-top {
+.navbar {
 	width: 100%;
-	color: white;
+	color: rgb(44, 43, 43);
 	padding: 1.5em;
 	display: flex;
 	position: sticky;
 	top: 0;
 	z-index: 10;
 }
-.navbar-top-logo {
+.navbar-logo {
 	font-family: Bungee, sans-serif;
 	font-size: 30px;
 }
 
-.navbar-top-menu {
+.navbar-menu {
 	margin-left: auto;
-	/*	display: block;*/
 	text-align: center;
 }
 
 .write-new-tweet {
-	color: white;
+	color: rgb(44, 43, 43);;
 	text-decoration: none;
 }
 @keyframes arrowdown {
