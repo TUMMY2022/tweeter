@@ -1,0 +1,39 @@
+.navbar-top {
+	width: 100%;
+	color: white;
+	padding: 1.5em;
+	display: flex;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-top-logo {
+	font-family: Bungee, sans-serif;
+	font-size: 30px;
+}
+
+.navbar-top-menu {
+	margin-left: auto;
+	/*	display: block;*/
+	text-align: center;
+}
+
+.write-new-tweet {
+	color: white;
+	text-decoration: none;
+}
+@keyframes arrowdown {
+	from {
+		transform: translate3d(0, -5px, 0);
+	}
+	to {
+		transform: translate3d(0, 5px, 0);
+	}
+}
+
+.navbar-top-menu i {
+	display: block;
+	animation: arrowdown 0.8s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
