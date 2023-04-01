@@ -1,0 +1,39 @@
+/** @format */
+.new-tweet {
+	padding: 25px;
+}
+
+.tweet-input {
+	width: 100%;
+	color: rgb(8, 8, 8);
+	font-weight: normal;
+	font-style: oblique;
+	padding: 1 em;
+	border: none;
+}
+
+.tweet-input:focus {
+	outline: none;
+}
+
+.tweet-submit {
+	background: rgb(20, 39, 155);
+	color: rgb(175, 33, 33);
+	font-family: Bungee, sans-serif;
+	font-size: medium;
+	display: flex;
+	padding: 15px 15px;
+	border-radius: 10px;
+	border: 2px solid rgb(20, 114, 201);
+}
+
+.tweet-submit:hover {
+	border: 1px solid #1482c9;
+	background-color: rgb(92, 234, 175);
+	font-family: Bungee, sans-serif;
+	display: flex;
+	padding: 15px 15px;
+	border-radius: 10px;
+	border: 2px solid rgb(20, 114, 201);
+	cursor: pointer;
+}
