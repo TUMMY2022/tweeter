@@ -22,3 +22,18 @@
 	color:  rgb(175, 33, 33);
 	text-decoration: none;
 }
+@keyframes arrowdown {
+	from {
+		transform: translate3d(0, -5px, 0);
+	}
+	to {
+		transform: translate3d(0, 5px, 0);
+	}
+}
+
+.navbar-menu i {
+	display: block;
+	animation: arrowdown 0.8s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}

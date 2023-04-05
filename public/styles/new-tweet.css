@@ -37,3 +37,24 @@
 	border: 2px solid rgb(20, 114, 201);
 	cursor: pointer;
 }
+/********************/
+.tweet-form::placeholder {
+	font-weight: bold;
+	color: rgb(60, 58, 58);
+}
+
+.tweet-counter {
+	font-weight: 500;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.tweet-error {
+	margin: auto;
+	color: rgb(248, 42, 6);
+	font-weight: 600;
+	border: solid 5px;
+	text-align: center;
+	width: 600px;
+	padding: 1em;
+}

@@ -4,6 +4,16 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 // Fake data taken from initial-tweets.json
+$(document).ready(function() {
+  $("#tweet-error").hide();
+  $("#tweet-form").hide();
+
+	$("#write-new-tweet, #btn-top-page").click(function(event){
+		event.preventDefault();
+		$("html, body").animate({ scrollTop: "0" })
+    $("#tweet-form").show();
+		$("#tweet-input").focus();
+	});
 const data = [
   {
     "user": {
@@ -81,3 +91,30 @@ const loadTweets = () => {
   });
 };
 loadTweets();
+
+const errorDisplay = function(errorText) {
+  const error = $("#tweet-error");
+  error.slideDown("slow").text(errorText);
+  setTimeout(()=>{
+    error.hide(300);
+  }, 3000);
+};
+$("#tweet-form").on("submit", function (event) {
+  event.preventDefault();
+  const lengthTweet = $("#tweet-input").val().length;
+  if (!lengthTweet) {
+    return errorDisplay("🛑 TOO SHORT!  Please write something readable 🛑 ");
+  }
+  if (lengthTweet > 140) {
+    return errorDisplay("🛑 TOO LONG! Please respect our limit of 140 chars 🛑");
+  }
+  let tweet = $(this).serialize();
+  $.post("/tweets/", tweet, (err, data) => {
+    loadTweets();
+    const input = $("#tweet-input");
+    input.val("").focus();
+    $("#tweet-counter").html("140");
+  });
+});
+});
+
