@@ -73,3 +73,11 @@ const createTweetElement = function(tweet) {
     </footer>
   </article>`;
 };
+
+//loads tweets
+const loadTweets = () => {
+  $.get("/tweets", (tweet) => {
+    renderTweets(tweet);
+  });
+};
+loadTweets();
