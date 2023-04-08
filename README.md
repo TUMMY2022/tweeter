@@ -34,10 +34,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 <!--########################################################-->
 
--Mobile device
-![Alt text](screenshot/mobile-design.PNG)
+-Mobile new tweet 
+![Alt text](screenshot/mobile%20new%20tweet.PNG)
 
 <!--########################################################-->
 
--Mobile new tweet 
-![Alt text](screenshot/mobile%20new%20tweet.PNG)
+-Mobile device
+![Alt text](screenshot/mobile-design.PNG)
