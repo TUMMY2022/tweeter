@@ -4,7 +4,6 @@
 	align-items: center;
 	flex-direction: column;
 	background-color: rgb(230, 150, 46);
-	background-image: url("/images/back-pattern.png");
 }
 
 .user-name {
