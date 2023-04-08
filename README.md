@@ -21,11 +21,23 @@ This repository is the starter code for the project: Students will fork and clon
 ## screenshot for the apps.
 -Desktop device
 ![Alt text](screenshot/desktop-design.PNG)
+
+<!--########################################################-->
+
 -Desktop new tweet 
 ![Alt text](screenshot/desktop-new%20tweet.PNG)
+
+<!--########################################################-->
+
 -error message
 ![Alt text](screenshot/error%20message.PNG)
+
+<!--########################################################-->
+
 -Mobile device
 ![Alt text](screenshot/mobile-design.PNG)
+
+<!--########################################################-->
+
 -Mobile new tweet 
 ![Alt text](screenshot/mobile%20new%20tweet.PNG)
