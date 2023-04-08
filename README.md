@@ -13,6 +13,19 @@ This repository is the starter code for the project: Students will fork and clon
 4. Go to <http://localhost:8080/> in your browser.
 
 ## Dependencies
+-body-parser
+-chance
+-express
+- md5
 
-- Express
-- Node 5.10.x or above
+## screenshot for the apps.
+-Desktop device
+![Alt text](screenshot/desktop-design.PNG)
+-Desktop new tweet 
+![Alt text](screenshot/desktop-new%20tweet.PNG)
+-error message
+![Alt text](screenshot/error%20message.PNG)
+-Mobile device
+![Alt text](screenshot/mobile-design.PNG)
+-Mobile new tweet 
+![Alt text](screenshot/mobile%20new%20tweet.PNG)
