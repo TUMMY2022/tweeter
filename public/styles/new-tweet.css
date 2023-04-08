@@ -37,14 +37,14 @@
 	border: 2px solid rgb(20, 114, 201);
 	cursor: pointer;
 }
-/********************/
+
 .tweet-form::placeholder {
 	font-weight: bold;
 	color: rgb(60, 58, 58);
 }
 
 .tweet-counter {
-	font-weight: 500;
+	font-weight: 600;
 	display: flex;
 	justify-content: flex-end;
 }

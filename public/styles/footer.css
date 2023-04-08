@@ -1,0 +1,29 @@
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	padding: 4em;
+}
+
+.btn-top-page {
+	background-color: rgb(245, 103, 20);
+	border: 2px solid rgb(167, 4, 4); 
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-family: Bungee, sans-serif;
+	font-size: medium;
+	padding: 20px 20px;
+}
+
+.btn-top-page:hover {
+	background-color: rgb(167, 4, 4);
+	border: 2px solid rgb(245, 103, 20);
+	cursor: pointer;
+}
+
+.footer-content {
+  color: blue;
+  padding: 20px 500px;
+}
